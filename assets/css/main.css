@@ -137,6 +137,7 @@ input, select, textarea {
     .icon {
         text-decoration: none;
         position: relative;
+        color: black;
     }
         
         .icon:before {
@@ -240,7 +241,7 @@ input, select, textarea {
     /* Set your background with this */
 
         background: #FFC600 url("images/background.jpg") center;
-        filter: blur(4px);
+/*        filter: blur(4px);*/
 /*        background-repeat: repeat-x;*/
 /*        background-size: cover;*/
 /*        background-position: left top;*/
@@ -678,7 +679,7 @@ input, select, textarea {
                 }
 
             #header nav a {
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+/*                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
                 -webkit-touch-callout: none;
                 border: 0;
                 display: inline-block;
@@ -690,7 +691,8 @@ input, select, textarea {
                     -ms-transition: all 0.2s ease-in-out;
                     transition: all 0.2s ease-in-out;
                     border-radius: 100%;
-                    border: solid 1px #fff;
+                    border: solid 4px black;
+                    background:#FFC600 ;
                     display: block;
                     font-size: 1.75em;
                     height: 2.5em;
@@ -763,10 +765,10 @@ input, select, textarea {
                 }
 
                 100% {
-                    -moz-transform: translate3d(-1500px,0,0);
-                    -webkit-transform: translate3d(-1500px,0,0);
-                    -ms-transform: translate3d(-1500px,0,0);
-                    transform: translate3d(-1500px,0,0);
+                    -moz-transform: translate3d(-4192px,0,0);
+                    -webkit-transform: translate3d(-4192px,0,0);
+                    -ms-transform: translate3d(-4192px,0,0);
+                    transform: translate3d(-4192px,0,0);
                 }
 
     }
@@ -780,10 +782,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-1500px,0,0);
-                -webkit-transform: translate3d(-1500px,0,0);
-                -ms-transform: translate3d(-1500px,0,0);
-                transform: translate3d(-1500px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
             }
 
@@ -796,10 +798,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-1500px,0,0);
-                -webkit-transform: translate3d(-1500px,0,0);
-                -ms-transform: translate3d(-1500px,0,0);
-                transform: translate3d(-1500px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
@@ -812,16 +814,16 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-1500px,0,0);
-                -webkit-transform: translate3d(-1500px,0,0);
-                -ms-transform: translate3d(-1500px,0,0);
-                transform: translate3d(-1500px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
         #bg {
-            background-size: 1500px auto;
-            width: 4500px;
+            /*background-size: 1500px auto;
+            width: 4500px;*/
         } }
 
 /* Normal */
@@ -845,10 +847,10 @@ input, select, textarea {
                 }
 
                 100% {
-                    -moz-transform: translate3d(-750px,0,0);
-                    -webkit-transform: translate3d(-750px,0,0);
-                    -ms-transform: translate3d(-750px,0,0);
-                    transform: translate3d(-750px,0,0);
+                    -moz-transform: translate3d(-4192px,0,0);
+                    -webkit-transform: translate3d(-4192px,0,0);
+                    -ms-transform: translate3d(-4192px,0,0);
+                    transform: translate3d(-4192px,0,0);
                 }
 
     }
@@ -862,10 +864,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-750px,0,0);
-                -webkit-transform: translate3d(-750px,0,0);
-                -ms-transform: translate3d(-750px,0,0);
-                transform: translate3d(-750px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
             }
 
@@ -878,10 +880,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-750px,0,0);
-                -webkit-transform: translate3d(-750px,0,0);
-                -ms-transform: translate3d(-750px,0,0);
-                transform: translate3d(-750px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
@@ -894,16 +896,16 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-750px,0,0);
-                -webkit-transform: translate3d(-750px,0,0);
-                -ms-transform: translate3d(-750px,0,0);
-                transform: translate3d(-750px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
         #bg {
-            background-size: 750px auto;
-            width: 4192px;
+            /*background-size: 750px auto;
+            width: 4192px;*/
         } }
 
 /* Mobile */
@@ -931,10 +933,10 @@ input, select, textarea {
                 }
 
                 100% {
-                    -moz-transform: translate3d(-300px,0,0);
-                    -webkit-transform: translate3d(-300px,0,0);
-                    -ms-transform: translate3d(-300px,0,0);
-                    transform: translate3d(-300px,0,0);
+                    -moz-transform: translate3d(-4192px,0,0);
+                    -webkit-transform: translate3d(-4192px,0,0);
+                    -ms-transform: translate3d(-4192px,0,0);
+                    transform: translate3d(-4192px,0,0);
                 }
 
     }
@@ -948,10 +950,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-300px,0,0);
-                -webkit-transform: translate3d(-300px,0,0);
-                -ms-transform: translate3d(-300px,0,0);
-                transform: translate3d(-300px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
             }
 
@@ -964,10 +966,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-300px,0,0);
-                -webkit-transform: translate3d(-300px,0,0);
-                -ms-transform: translate3d(-300px,0,0);
-                transform: translate3d(-300px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
@@ -980,16 +982,16 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-300px,0,0);
-                -webkit-transform: translate3d(-300px,0,0);
-                -ms-transform: translate3d(-300px,0,0);
-                transform: translate3d(-300px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
         #bg {
-            background-size: 300px auto;
-            width: 900px;
+            /*background-size: 300px auto;
+            width: 900px;*/
         }
 
     /* Header */
@@ -1029,10 +1031,10 @@ input, select, textarea {
                 }
 
                 100% {
-                    -moz-transform: translate3d(-412.5px,0,0);
-                    -webkit-transform: translate3d(-412.5px,0,0);
-                    -ms-transform: translate3d(-412.5px,0,0);
-                    transform: translate3d(-412.5px,0,0);
+                    -moz-transform: translate3d(-4192px,0,0);
+                    -webkit-transform: translate3d(-4192px,0,0);
+                    -ms-transform: translate3d(-4192px,0,0);
+                    transform: translate3d(-4192px,0,0);
                 }
 
     }
@@ -1046,10 +1048,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-412.5px,0,0);
-                -webkit-transform: translate3d(-412.5px,0,0);
-                -ms-transform: translate3d(-412.5px,0,0);
-                transform: translate3d(-412.5px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
             }
 
@@ -1062,10 +1064,10 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-412.5px,0,0);
-                -webkit-transform: translate3d(-412.5px,0,0);
-                -ms-transform: translate3d(-412.5px,0,0);
-                transform: translate3d(-412.5px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
@@ -1078,16 +1080,16 @@ input, select, textarea {
             }
 
             100% {
-                -moz-transform: translate3d(-412.5px,0,0);
-                -webkit-transform: translate3d(-412.5px,0,0);
-                -ms-transform: translate3d(-412.5px,0,0);
-                transform: translate3d(-412.5px,0,0);
+                -moz-transform: translate3d(-4192px,0,0);
+                -webkit-transform: translate3d(-4192px,0,0);
+                -ms-transform: translate3d(-4192px,0,0);
+                transform: translate3d(-4192px,0,0);
             }
         }
 
         #bg {
-            background-size: 412.5px auto;
-            width: 1237.5px;
+            /*background-size: 412.5px auto;
+            width: 1237.5px;*/
         }
 
     /* Header */
